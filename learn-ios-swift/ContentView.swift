@@ -9,9 +9,10 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+        Image(systemName: "globe")
+            .imageScale(.large)
+            .foregroundColor(.tint)
         Text("Hello, SwiftUI!")
-            .font(.title)
-            .foregroundColor(.blue)
     }
 }
 

@@ -11,9 +11,9 @@
 		606E53082B6D1A5C00A853A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606E53072B6D1A5C00A853A0 /* ContentView.swift */; };
 		606E530A2B6D1A5C00A853A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 606E53092B6D1A5C00A853A0 /* Assets.xcassets */; };
 		606E530E2B6D1A5C00A853A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 606E530D2B6D1A5C00A853A0 /* Preview Assets.xcassets */; };
-		606E53182B6D1A5D00A853A0 /* learn_ios_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606E53172B6D1A5D00A853A0 /* learn_ios_swiftTests.swift */; };
-		606E53222B6D1A5D00A853A0 /* learn_ios_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606E53212B6D1A5D00A853A0 /* learn_ios_swiftUITests.swift */; };
-		606E53242B6D1A5D00A853A0 /* learn_ios_swiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606E53232B6D1A5D00A853A0 /* learn_ios_swiftUITestsLaunchTests.swift */; };
+		606E53182B6D1A5D00A853A0 /* LandmarksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606E53172B6D1A5D00A853A0 /* LandmarksTests.swift */; };
+		606E53222B6D1A5D00A853A0 /* LandmarksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606E53212B6D1A5D00A853A0 /* LandmarksUITests.swift */; };
+		606E53242B6D1A5D00A853A0 /* LandmarksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606E53232B6D1A5D00A853A0 /* LandmarksUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,10 +41,10 @@
 		606E530B2B6D1A5C00A853A0 /* learn_ios_swift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = learn_ios_swift.entitlements; sourceTree = "<group>"; };
 		606E530D2B6D1A5C00A853A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		606E53132B6D1A5D00A853A0 /* learn-ios-swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "learn-ios-swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		606E53172B6D1A5D00A853A0 /* learn_ios_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learn_ios_swiftTests.swift; sourceTree = "<group>"; };
+		606E53172B6D1A5D00A853A0 /* LandmarksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksTests.swift; sourceTree = "<group>"; };
 		606E531D2B6D1A5D00A853A0 /* learn-ios-swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "learn-ios-swiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		606E53212B6D1A5D00A853A0 /* learn_ios_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learn_ios_swiftUITests.swift; sourceTree = "<group>"; };
-		606E53232B6D1A5D00A853A0 /* learn_ios_swiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learn_ios_swiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		606E53212B6D1A5D00A853A0 /* LandmarksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksUITests.swift; sourceTree = "<group>"; };
+		606E53232B6D1A5D00A853A0 /* LandmarksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,7 +115,7 @@
 		606E53162B6D1A5D00A853A0 /* learn-ios-swiftTests */ = {
 			isa = PBXGroup;
 			children = (
-				606E53172B6D1A5D00A853A0 /* learn_ios_swiftTests.swift */,
+				606E53172B6D1A5D00A853A0 /* LandmarksTests.swift */,
 			);
 			path = "learn-ios-swiftTests";
 			sourceTree = "<group>";
@@ -123,8 +123,8 @@
 		606E53202B6D1A5D00A853A0 /* learn-ios-swiftUITests */ = {
 			isa = PBXGroup;
 			children = (
-				606E53212B6D1A5D00A853A0 /* learn_ios_swiftUITests.swift */,
-				606E53232B6D1A5D00A853A0 /* learn_ios_swiftUITestsLaunchTests.swift */,
+				606E53212B6D1A5D00A853A0 /* LandmarksUITests.swift */,
+				606E53232B6D1A5D00A853A0 /* LandmarksUITestsLaunchTests.swift */,
 			);
 			path = "learn-ios-swiftUITests";
 			sourceTree = "<group>";
@@ -268,7 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				606E53182B6D1A5D00A853A0 /* learn_ios_swiftTests.swift in Sources */,
+				606E53182B6D1A5D00A853A0 /* LandmarksTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +276,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				606E53222B6D1A5D00A853A0 /* learn_ios_swiftUITests.swift in Sources */,
-				606E53242B6D1A5D00A853A0 /* learn_ios_swiftUITestsLaunchTests.swift in Sources */,
+				606E53222B6D1A5D00A853A0 /* LandmarksUITests.swift in Sources */,
+				606E53242B6D1A5D00A853A0 /* LandmarksUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
