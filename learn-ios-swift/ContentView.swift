@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         Image(systemName: "globe")
             .imageScale(.large)
-            .foregroundColor(.tint)
+            .foregroundStyle(.tint)
         Text("Hello, SwiftUI!")
     }
 }
